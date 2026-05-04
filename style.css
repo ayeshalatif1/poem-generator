@@ -2,3 +2,59 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #f9f7fe;
+}
+.container{
+    margin: 100px auto;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+header{
+    padding: 20px;
+}
+form{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    border-radius: 10px;
+}
+#topic-input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+#topic-submit{
+    background-color: #e3cfde;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 6px 10px #e3cfde;
+}
+#poem{
+    padding: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #fff;
+    box-shadow:0px 20px 60px rgba(65, 50, 100, 0.08);
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 12px;
+}
