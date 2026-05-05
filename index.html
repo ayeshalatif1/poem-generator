@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +8,30 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
+
 <body>
     <div class="container">
-    <header>
-    <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-        <form id="generate-poem">
-            <input type="text" id="topic-input" placeholder="Enter the topic to generate poem" autofocus required autocomplete="off">
-            <input type="submit" value="Generate" id="topic-submit">
-        </form>
-        <div id="poem">
-        </div>
-    </main>
-    <footer>This project is hosted on <a target="_blank" href="https://github.com/ayeshalatif1/poem-generator">GitHub</a></footer>
+        <header>
+            <h1>AI Poem Generator</h1>
+        </header>
+        <main>
+            <div id="generate-poem">
+                <form>
+                    <input type="text" id="topic-input" placeholder="Enter the topic to generate poem" autofocus
+                        required autocomplete="off">
+                    <input type="submit" value="Generate" id="topic-submit">
+                </form>
+                <div class="hint">e.g: Birds, Humans, Tokyo etc</div>
+            </div>
+            <div id="poem" class="hidden">
+
+            </div>
+
+        </main>
+        <footer>This project is hosted on <a target="_blank"
+                href="https://github.com/ayeshalatif1/poem-generator">GitHub</a></footer>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
